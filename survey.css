@@ -1,0 +1,43 @@
+#title
+{
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-color:red;
+    font-family:IM Fell English SC;
+
+}
+#description
+{
+    font-family:monospace;
+    font-size: larger;
+    
+}
+#body
+{
+    margin:auto;
+    position:relative;
+    background:linear-gradient(45deg,#F5F5DC 22px,#F5F5DC 30px);
+}
+#survey-form
+{
+   
+}
+#name
+{
+    margin:auto
+}
+#e-mail
+{
+    margin:auto;
+    margin-top:35px;
+}
+#number
+{
+    margin:auto;
+    margin-top:35px;
+}
+button:hover
+{background-color:rosybrown;
+   transform:scale(1.5) ;
+
+}
