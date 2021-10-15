@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>SURVEY FORM </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="survey.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap"
+ rel="stylesheet">
+      </head>
+        <main>
+          <div id="body">
+             <body>
+          <h1 id="title">SURVEY FORM</h1>
+         <p id="description"><strong><u>This survey is conducted by TN government.
+            Carefully read the instructions and fill.</u></strong> </p>
+            <hr>
+            <br>
+            <form id="survey-form" action="https://www.freecodecamp.com/email-submit">
+               <ol>
+               <li><label for="name">NAME:</label>
+               <input id="name" type="text" placeholder="Name" required><br></li>
+               <li><label for="e-mail">E-MAIL:</label>
+               <input id="e-mail" type="e-mail" placeholder="g-mail account" required></li>
+               <li><label for="number">NUMBER</label>
+                  <input id="number" type="number" placeholder="(1-100)" min="1" max="100" 
+                  required><br></li>
+               </ol>
+               <h3><strong>Instruction for filling above credentials</strong></h3><br>
+              
+                  <ul >
+                  <li id="name-label"><em>NAME:</em>Enter your name 
+                     including first and last names.</li><br>
+                  <li id="email-label"><EM>E-MAIL:</EM>Enter your g-mail account id with
+                      the correct form.</li><br>
+                  <li id="number-label"><EM>NUMBER:</EM>Number is only limited from 
+                     1-100.Do not exceed 100 else it will not be valid.</li>
+               </ul>
+               <label for="name"><HR>
+                  <h4>SELECT YOUR FIELDS ENTERED</h4>
+<input type="radio" id="name" name="radio" value="name" checked>
+NAME</label><br>
+<input type="radio" id="e-mail" name="radio" value="e-mail" checked>
+E-MAIL</label><br>
+<input type="radio" id="number" name="radio" value="number" checked>
+NUMBER</label><br><br><HR>
+<h4>CHECK THE BOX ENTERED</h4>
+<input type="checkbox" id="name" name="check" value="name" >
+NAME</label><br>
+<input type="checkbox" id="e-mail" name="check" value="e-mail" >
+E-MAIL</label><br>
+<input type="checkbox" id="number" name="check" value="number" >
+NUMBER</label><br>
+<hr>
+<h4><strong>WRITE YOUR COMMENTS OVER HERE</strong></h4>
+<label for="com">
+<textarea id="com" name="comment" cols="50" rows="27"></textarea>
+</label>
+<hr>
+<button id="pop" type="submit" >SUBMIT</button>
+            
+               </form>
+            
+        
+</div>
+        </main>
+
+        </body>
+        
+</html>
